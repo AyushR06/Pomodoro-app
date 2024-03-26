@@ -1,0 +1,103 @@
+body{
+    background-color:#000 ;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    color: #FDFFAB;
+    text-align: center;
+    font-family: "Handlee", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+    
+
+.timer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    color: #FDFFAB;
+    border-radius: 100%;
+    margin-top: 1rem;
+    border: 5px solid #ffffffe3;
+}
+.timer h1{
+    z-index: 999999;
+    display:none;
+}
+.content{
+    font-size: 3rem;
+}
+.btn{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.play{
+    display: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 2px solid #ffffff;
+    margin-top: 2rem;
+    margin-right: 2.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.pause{
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 2px solid #ffffff;
+    margin-top: 2rem;
+    margin-right: 2.8rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset{
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 2px solid #ffffff;
+    margin-top: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ri-arrow-right-s-fill{
+    color: #FDFFAB;
+}
+.ri-pause-line{
+    color: #FDFFAB;
+}
+.ri-refresh-line{
+    color: #FDFFAB;
+}
+.message{
+    font-size: 1.3rem;
+    color: #FDFFAB;
+    text-align: center;
+    font-family: "Handlee", cursive;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:480px) {
+    body{
+        margin-top: 5rem;
+    }
+    
+}
